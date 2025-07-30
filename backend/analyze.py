@@ -37,3 +37,4 @@ async def analyze_toxicity(comment: str) -> list:
             labels = [x["label"] for x in res.json()[0] if x["score"] > 0.5]
             return labels or ["Non-toxic"]
         return ["Unknown"]
+
