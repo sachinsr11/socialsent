@@ -46,11 +46,5 @@ socialsent/
 └── .gitignore          # Git ignore file
 ```
 
-## Contributing
-Pull requests are welcome! For major changes, please open an issue first to discuss what you would like to change.
-
 ## License
 MIT
-
-## Contact
-For questions or support, contact [your.email@example.com](mailto:your.email@example.com).
