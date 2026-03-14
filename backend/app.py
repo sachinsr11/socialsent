@@ -4,8 +4,8 @@ from typing import List
 import pandas as pd
 import io
 
-from backend.utils.youtube_api import fetch_comments
-from backend.analyze import analyze_sentiment, analyze_toxicity
+from utils.youtube_api import fetch_comments
+from analyze import analyze_sentiment, analyze_toxicity
 
 app = FastAPI()
 
