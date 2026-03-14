@@ -5,3 +5,4 @@ pandas
 requests
 python-multipart
 python-dotenv
+huggingface_hub
