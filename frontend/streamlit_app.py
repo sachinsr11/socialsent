@@ -2,7 +2,8 @@ import streamlit as st
 import pandas as pd
 import requests
 
-BACKEND_URL = "http://localhost:8000/analyze-batch"
+BACKEND_URL = "https://socialsent-backend.onrender.com/analyze-batch"
+YOUTUBE_URL = "https://socialsent-backend.onrender.com/analyze-youtube"
 
 st.set_page_config(page_title="SocialSent – Comment Analyzer", layout="wide")
 st.title("🧠 SocialSent: Sentiment & Toxicity Analyzer")
@@ -14,7 +15,7 @@ video_url = st.text_input("Paste a YouTube video URL")
 if video_url and st.button("🔍 Analyze YouTube Comments"):
     with st.spinner("Fetching and analyzing comments..."):
         res = requests.post(
-            "http://localhost:8000/analyze-youtube",
+            YOUTUBE_URL,
             json={"url": video_url, "limit": 50}
         )
 
