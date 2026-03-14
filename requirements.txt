@@ -1,9 +1,0 @@
-fastapi
-uvicorn
-streamlit
-httpx
-pandas
-transformers
-scikit-learn
-emoji
-python-multipart
