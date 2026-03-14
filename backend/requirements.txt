@@ -1,10 +1,7 @@
 fastapi
 uvicorn
-streamlit
 httpx
 pandas
-transformers
-scikit-learn
-emoji
+requests
 python-multipart
 python-dotenv
