@@ -7,3 +7,4 @@ transformers
 scikit-learn
 emoji
 python-multipart
+python-dotenv
