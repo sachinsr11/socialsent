@@ -12,9 +12,9 @@ HEADERS = {
 }
 
 # Sentiment Model: CardiffNLP
-SENTIMENT_URL = "https://router.huggingface.co/api/models/cardiffnlp/twitter-roberta-base-sentiment"
+SENTIMENT_MODEL = "cardiffnlp/twitter-roberta-base-sentiment-latest"
 # Toxicity Model: Unitary
-TOXICITY_URL = "https://router.huggingface.co/api/models/unitary/toxic-bert"
+TOXICITY_MODEL = "unitary/unbiased-toxic-roberta"
 
 LABEL_MAP = {
     "LABEL_0": "Negative",
